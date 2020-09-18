@@ -1,0 +1,23 @@
+{
+    "name": "sbgo/icbc-all-in-one-pay",
+    "description": "工行支付sdk封装",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "周亮",
+            "email": "johnor@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "lib-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "icbc\\": "src/"
+        }
+    }
+}
