@@ -13,7 +13,7 @@
     "require": {
         "php": ">=7.0",
         "ext-curl": "*",
-        "lib-openssl": "*"
+        "ext-openssl": "*"
     },
     "autoload": {
         "psr-4": {
